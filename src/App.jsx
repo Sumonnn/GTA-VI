@@ -1,6 +1,9 @@
 import React from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
+import Navbar from './sections/Navbar';
+import Hero from './sections/Hero';
+import Firstvideo from './sections/Firstvideo';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -9,11 +12,13 @@ function App() {
 
 
   return (
-    <>
-      <div>
-        <h1>Welcome to the world of GTA!</h1>
-      </div>
-    </>
+    <main>
+      <Navbar />
+
+      <Hero />
+
+      <Firstvideo />
+    </main>
   )
 }
 
