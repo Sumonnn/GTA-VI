@@ -6,6 +6,8 @@ function Firstvideo() {
 
     const videoRef = useRef(null);
 
+    console.log("videoRef", videoRef)
+
     useGSAP(() => {
         gsap.set('.first-vd-wrapper', { marginTop: '-150vh', opacity: 0 });
 
