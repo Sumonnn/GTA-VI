@@ -8,6 +8,8 @@ import Jason from './sections/Jason';
 import Secondvideo from './sections/Secondvideo';
 import Lucia from './sections/Lucia';
 import PostCard from './sections/PostCard';
+import LastVideo from './sections/LastVideo';
+import FooterIntro from './sections/FooterIntro';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -27,6 +29,9 @@ function App() {
       <Lucia />
 
       <PostCard />
+      <LastVideo />
+
+      <FooterIntro />
     </main>
   )
 }
